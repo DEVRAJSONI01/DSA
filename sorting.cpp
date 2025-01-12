@@ -50,7 +50,7 @@ for(int i=0;i<n;i++){
 }
 
 int main(){
-    vector<int>arr={1,4,3,2,6};
+    vector<int>arr={0,1,0,2,1,2};
     inserction(arr);
     return 0;
 }
