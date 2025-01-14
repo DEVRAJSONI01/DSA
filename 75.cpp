@@ -1,24 +1,24 @@
 //brute force
-// #include<iostream>
-// #include<vector>
-// using namespace std;
-// void sort(vector<int>&arr){
-// int n=arr.size();
-// for(int i=0;i<n-1;i++){
-//     for(int j=0;j<n-i-1;j++){
-//         if(arr[j]>arr[j+1]){
-//         swap(arr[j],arr[j+1]);
-//     }}
-// }
-// }
-// int main(){
-// vector<int>arr={2,0,2,1,1,0};
-// sort(arr);
-// for(int k:arr){
-//     cout<<k;
-// }
-//     return 0;
-// }
+#include<iostream>
+#include<vector>
+using namespace std;
+void sort(vector<int>&arr){
+int n=arr.size();
+for(int i=0;i<n-1;i++){
+    for(int j=0;j<n-i-1;j++){
+        if(arr[j]>arr[j+1]){
+        swap(arr[j],arr[j+1]);
+    }}
+}
+}
+int main(){
+vector<int>arr={2,0,2,1,1,0};
+sort(arr);
+for(int k:arr){
+    cout<<k;
+}
+    return 0;
+}
 
 //optimised (count 0s,1s,2s and use loops to rewrite them)
 //more optimised(Dutch national flag algorithem)
