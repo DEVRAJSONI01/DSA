@@ -83,7 +83,5 @@ int main(){
     ll2.insert(3,1);
     ll2.insert(4,2);
     //ll2.insert(4,3);
-    ll2.printll();
-    s1.merge(ll1,ll2);
     return 0;
 }
