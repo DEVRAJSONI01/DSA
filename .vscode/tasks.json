@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+            "label": "Build and Run STL",
+            "type": "shell",
+            "command": "g++ -std=c++17 stl.cpp -o stl && ./stl",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+	]
+}
